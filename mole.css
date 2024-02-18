@@ -1,0 +1,40 @@
+.title{
+   text-align: left;
+}
+.score1{
+    text-align: left;
+}
+.score2{
+    text-align: left;
+}
+
+.time1{
+    text-align: left;
+}
+.time2{
+    text-align: left;
+}
+
+.grid{
+	width: 606px;
+	height: 606px;
+	display: flex;
+	flex-wrap: wrap;  
+}
+
+.square{
+	height: 200px;
+	width: 200px;   
+}
+
+.mole{
+	background-image: url("/mole-head.png");
+	background-size: cover;
+
+}
+body{
+    background-image: url(/whack-a-mole-game-main/background.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100vh;
+}
